@@ -8,12 +8,12 @@ $ npm install cos-manager -g
 
 ## 示例
 ```bash
-  # 首次写入配置
-  $ cos-manager --id=AKIDxxx --key=xxx
-  # 上传指定目录
-  $ cos-manager --r=Region --b=BocketName --dir=dist
-  # 查看帮助信息
-  $ cos-manager -h
+# 首次写入配置
+$ cos-manager --id=AKIDxxx --key=xxx
+# 上传指定目录
+$ cos-manager --r=Region --b=Bucket-APPID --dir=dist
+# 查看帮助信息
+$ cos-manager -h
 ```
 
 ## 规划
