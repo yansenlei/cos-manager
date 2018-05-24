@@ -44,9 +44,9 @@ require('shelljs/global')
 
 var config = {}
 
-let path = process.cwd()
+let path = `${process.cwd()}/`
 if(argv.dir) {
-    path = `${path}/${argv.dir}/`
+    path = `${path}${argv.dir}/`
 }
 
 if(argv.id && argv.key) {
@@ -84,7 +84,7 @@ function putFiles(path, pre) {
                         Bucket: argv.b,
                         Region: argv.r,
                         Key: `${fileKey}/`,
-                        ContentLength: argv.conlg || '1000',
+                        ContentLength: argv.cl,
                         Body: filePath,
                     }, function(err, data) {
                         if(err) {

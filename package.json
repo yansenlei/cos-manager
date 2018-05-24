@@ -1,9 +1,17 @@
 {
   "name": "cos-manager",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "simple script use tencentyun cos",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yansenlei/cos-manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yansenlei/cos-manager/issues",
+    "email": "leiyswork@163.com"
   },
   "bin": {
     "cos-manager": "./index.js"
