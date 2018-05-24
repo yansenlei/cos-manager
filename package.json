@@ -1,0 +1,21 @@
+{
+  "name": "cos-manager",
+  "version": "0.0.1",
+  "description": "simple script use tencentyun cos",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cos-manager": "./index.js"
+  },
+  "keywords": [
+    "cos"
+  ],
+  "author": "yansen.lei",
+  "license": "MIT",
+  "dependencies": {
+    "cos-nodejs-sdk-v5": "^2.4.3",
+    "shelljs": "^0.8.2",
+    "yargs": "^11.0.0"
+  }
+}
