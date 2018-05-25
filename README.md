@@ -18,6 +18,6 @@ $ cos-manager -h
 
 ## 规划
 - [x] 上传指定目录下的所有文件
-- [ ] 支持Windows用户
+- [x] 支持Linux、Unix、Windows用户
 - [ ] 多文件上传进度优化
 - [ ] 丰富桶操作...
