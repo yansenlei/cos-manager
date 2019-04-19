@@ -1,9 +1,10 @@
 {
   "name": "cos-manager",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "simple script use tencentyun cos",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "eslint": "./node_modules/.bin/eslint index.js",
+    "publish": "npm run eslint && npm publish"
   },
   "repository": {
     "type": "git",
@@ -22,8 +23,18 @@
   "author": "yansen.lei",
   "license": "MIT",
   "dependencies": {
-    "cos-nodejs-sdk-v5": "^2.4.3",
+    "clui": "^0.3.6",
+    "cos-nodejs-sdk-v5": "^2.5.8",
+    "figlet": "^1.2.1",
     "shelljs": "^0.8.2",
     "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0"
   }
 }
