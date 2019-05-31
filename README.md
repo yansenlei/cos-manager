@@ -1,4 +1,7 @@
 # cos-manager
+
+*停止更新，推荐使用官方库：[coscmd](https://github.com/tencentyun/coscmd)*
+
 > 使用简单的命令行操作[腾讯对象存储服务](https://github.com/tencentyun/cos-nodejs-sdk-v5)
 
 ## 安装
